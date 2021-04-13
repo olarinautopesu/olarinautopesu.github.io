@@ -7,6 +7,7 @@ h1		{
 		font-family: Arial;
 		text-align: center;
 		margin: 40px;
+		margin-bottom: 10px;
 }
 
 h5		{
@@ -34,11 +35,12 @@ h5		{
 }
 
 a:link		{
-		color: #F9F5F5;
+		color: gray;
+		text-decoration: none;
 }
 
 a:visited	{
-		color: #C6C2C2;
+		color: gray;
 }
 
 .col-6		{
@@ -49,11 +51,14 @@ a:visited	{
 		text-align: center;
 		padding-right: 250px;
 		padding-left: 250px;
+		margin-bottom: 30px;
 }
 
 .img-fluid	{
 	cursor: pointer;
 }
+
+
 
 input[type=text]	{
 			background-color: #F8F8F8;
@@ -78,7 +83,6 @@ p			{
   width: 55%;
   border: 1px solid black;
   padding: 30px;
-  text-align: ;
   box-shadow: 20px 20px 20px 5px gray;
 }
 
@@ -104,17 +108,33 @@ footer	{
 iframe		{
 		 width: 400px;
 		 height: 300px;
-         frameborder: 0;
-         style: border:0;
-         allowfullscreen: ;
-         aria-hidden: false;
-         tabindex:0;
+         
 }
 
 ul			{
 			font-size: 15px;
 			text-align: left;
 }
+
+.arrow {
+  border: solid lightgray;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+
 
 @media (max-width: 992px) {
     .col-6 {
@@ -140,6 +160,7 @@ ul			{
    button	{
 	   margin-top: 4px;
    }
+  
    
    .img-hover-zoom	{
 		height: auto !important;
