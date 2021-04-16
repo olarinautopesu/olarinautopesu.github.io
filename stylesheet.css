@@ -137,9 +137,16 @@ ul			{
 }
 
 .dropdown-item.active, .dropdown-item:active { 
-  background-color: #DBDBDB; 
-  color: black;
+  background-color: #690303; 
+  color: lightgray;
+
 }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: unset;
+  color: lightgray;
+}
+
 
 
 @media (max-width: 992px) {
