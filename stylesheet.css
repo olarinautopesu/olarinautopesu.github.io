@@ -143,7 +143,7 @@ ul			{
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  background-color: #690303;
+  background-color: unset;
   color: lightgray;
 }
 
