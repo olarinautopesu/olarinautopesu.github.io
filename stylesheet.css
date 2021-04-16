@@ -90,6 +90,9 @@ footer	{
 		margin-top: 30px;
 }
 
+.pesulogo	{
+		 margin-top: 0px;
+}
 
 
 .img-hover-zoom {
@@ -165,16 +168,19 @@ ul			{
    .img-hover-zoom	{
 		height: auto !important;
 	}
+		.pesulogo	{
+		margin-top: 40px;
+	}
 }
 
 @media (max-width: 680px) {
 	.pesulogo	{
-		margin-top: 80px;
+		margin-top: 60px;
 	}
 }
 
 @media (max-width: 521px) {
 	.pesulogo	{
-		margin-top: 110px;
+		margin-top: 60px;
 	}
 }
