@@ -136,7 +136,10 @@ ul			{
   -webkit-transform: rotate(135deg);
 }
 
-
+.dropdown-item.active, .dropdown-item:active { 
+  background-color: #DBDBDB; 
+  color: black;
+}
 
 
 @media (max-width: 992px) {
